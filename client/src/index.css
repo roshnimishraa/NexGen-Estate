@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Marcellus";
+    src: url("./assets/fonts/Marcellus-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Italiana";
+    src: url("./assets/fonts/Italiana-Regular.ttf") format("truetype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Marcellus";
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+::selection {
+    background: black; /* Background color of the selected text */
+    color: white;      /* Text color of the selected text */
+}
+
+/* For webkit-based browsers */
+::-moz-selection {
+    background: black;
+    color: white;
+}
+
+/* For non-webkit-based browsers */
+
